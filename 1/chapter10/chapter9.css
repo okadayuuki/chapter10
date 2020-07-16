@@ -1,0 +1,110 @@
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.clearfix::after{
+	content:"";
+	display:block;
+	clear:both;
+
+}
+header{
+	
+	height:50px;
+	background-color: #FF9A4B;
+	
+}
+main{
+	width:960px;
+	margin:0 auto;
+}
+.main-box{
+	width:300px;
+	background-color:#EEEEEE;
+	margin:0 30px 0 0;
+	float:left;
+	/*未記入*/
+	padding:10px;
+	position:relative;
+}
+/*未記入*/
+.main-box:last-child{
+	margin-right:0;
+}
+
+.number{
+	background-color:#FF9A4B;
+	/*width:45px;*/
+	/*height:25px;*/
+	color:#FFFFFF;
+	/*position:0 0;*/
+	position:absolute;
+	top:0;
+	left:0;
+	padding:3px;
+}
+.img1{
+	background-image:url(img/flow01.png);
+	background-size:cover;
+	height:150px;
+	/*margin:10px 10px 15px 10px;*/
+	/*未記入*/
+	background-position:bottom;
+}
+.img2{
+	background-image:url(img/flow02.png);
+	background-size:cover;
+	height:150px;
+	/*margin:10px 10px 15px 10px;*/
+	/*未記入*/
+	background-position:bottom;
+
+	
+}
+.img3{
+	background-image:url(img/flow03.png);
+	background-size:cover;
+	height:150px;
+	/*margin:10px 10px 15px 10px;*/
+	/*未記入*/
+	background-position:bottom;
+
+	
+}
+h3{
+	margin-bottom:5px;
+}
+/*p{
+	font-size:15px;
+}*/
+footer{
+	
+	height: 50px;
+	background-color:#AAAAAA;
+	
+}
+@media screen and (max-width:768px){
+	header{
+		width: 100%;
+	}
+
+	main{
+		width:100%;
+		padding: 50px 5% ;
+		
+	}
+	.main-box{
+		width:90%;
+		float: none;
+		margin-bottom:20px;
+	}
+	.main-box:last-child{
+		margin-bottom: 0;
+
+	}
+	footer{
+		width:100%;
+	}
+}
