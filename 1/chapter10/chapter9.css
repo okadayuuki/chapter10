@@ -75,6 +75,7 @@ main{
 	
 }
 h3{
+	margin-top:15px;
 	margin-bottom:5px;
 }
 /*p{
@@ -93,7 +94,7 @@ footer{
 
 	main{
 		width:100%;
-		padding: 50px 5% ;
+		margin: 50px 5%;
 		
 	}
 	.main-box{
